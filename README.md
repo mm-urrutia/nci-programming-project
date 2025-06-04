@@ -41,3 +41,9 @@ Several challenges were addressed during the analysis. First, many percentage ba
 - Charalabides, S., National College of Ireland – Data Analysis & Visualization Lectures (2024)  
 - Dholakia, R. R. & Bagozzi, K. M., *Journal of Interactive Marketing* (2020)  
 - Google Think Insights: [Understand customer needs](https://www.thinkwithgoogle.com/consumer-insights/consumer-journey/understand-customer-needs/)
+
+## Notes
+
+This project was originally developed as part of a university module in Programming for Data Analytics.
+
+
