@@ -6,8 +6,6 @@ This project analyses a comprehensive dataset containing information on digital 
 
 Due to limited documentation, variable meanings were inferred based on naming and additional columns such as *ROAS_calculated* were created to enrich the analysis. As the dataset is based on mock data and includes unnormalised distribution, normalisation techniques were applied to enhance its quality and ensure reliable analysis.
 
----
-
 ## Objective
 
 The primary goal of this project is to extract actionable insights that help advertisers optimise their campaigns. By using exploratory data analysis, visualisation, and basic statistical techniques, this study investigates how variables like time, investment, device, and location influence return on advertising spend (*ROAS*) and overall performance.
@@ -19,13 +17,9 @@ The project aims to answer the following questions:
 - *Which devices generate the most conversions and how do they impact ROAS?*  
 - *Are there product categories that perform better in certain countries?*
 
----
-
 ## Methodology
 
 Data preparation involved cleaning missing or irrelevant columns, converting data types, and creating new variables such as a calculated ROAS. Outliers were filtered using the 1st and 99th percentiles to improve trend accuracy. Finally, key numerical and categorical variables were selected to support the analysis.
-
----
 
 ## Key Findings
 
@@ -37,13 +31,9 @@ Regarding *device usage*, *Desktop* emerged as the dominant device in terms of c
 
 Geographical and categorical analysis showed that certain *product categories perform significantly better in specific countries*. For example, *HostedDataStorage* and *AttorneysLawFirms* in the United States demonstrated superior ROAS compared to the same categories in other countries. This finding underscores the importance of tailoring campaign strategies to specific markets, aligning product offerings with regional demand and behavior.
 
----
-
 ## Challenges
 
 Several challenges were addressed during the analysis. First, many percentage based metrics were stored as text strings, requiring conversion into decimal format for accurate computation. Additionally, inconsistencies in the *ROAS_f* column led to the development of a new variable, *ROAS_calculated*, which was computed using revenue and final cost. Outliers presented another issue, as extreme values distorted the distributions, this was resolved by filtering data outside the 1st and 99th percentiles, resulting in clearer and more reliable insights.
-
----
 
 ## References
 
